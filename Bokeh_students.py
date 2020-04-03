@@ -1,17 +1,21 @@
 #!/usr/bin/env python3.7
+####################################################
+#
+# Author: M Joyce
+# For use with ASTR3007/6007 MESA-based assignments
+#
+####################################################
 import numpy as np
 import pandas as pd
 import bokeh
 from bokeh.models import ColumnDataSource
 from bokeh.plotting import figure, show, output_file 
 
-#MESA_file = 'solar_model_history.data'
-MESA_file = 'MESA-Web_Job_0319052631/trimmed_history.data'
+MESA_file = 'trimmed_history.data'
 
-
-model_number, star_age, log_Teff, log_L= np.loadtxt(MESA_file, usecols=(0,1,5,3), unpack=True, skiprows=6)
-#model_number star_age star_mass log_L  log_R   log_Teff 
 #0 			  1 	   2 		 3 	    4		5
+#model_number star_age star_mass log_L  log_R   log_Teff 
+model_number, star_age, log_Teff, log_L= np.loadtxt(MESA_file, usecols=(0,1,5,3), unpack=True, skiprows=6)
 
 
 star_age = star_age/1e9
@@ -32,7 +36,6 @@ star_features ={
 
 df = pd.DataFrame(data=star_features)
 source = ColumnDataSource(data=df)
-
 
 TITLE = "Interactive HR"
 TOOLS="hover,crosshair,pan,wheel_zoom,zoom_in,zoom_out,box_zoom,undo,redo,reset,tap,save,box_select,poly_select,lasso_select,"
