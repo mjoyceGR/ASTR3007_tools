@@ -8,6 +8,18 @@ Using this repository is NOT a requirement of the course. However, answering que
 ###### pandas
 ###### ColumnDataSource 
 
+On newer systems, there are probably built-in ways to install Python3 packages that I do not know about or understand. Your Python application or interface will have some internal way of managing this.
+
+To install all of these in the terminal, download or copy **requirements.txt** to your directory and type
+
+	pip3 install -r requirements.txt --user
+
+Or, equivalently, type out
+
+	pip3 install -r numpy --user
+
+for each package (numpy, pandas, ColumnDataSource) individually	
+
 ## Installation
 If you already know how to use Python, or if you are friends with someone else who does, the easiest thing to do will be to copy the **Bokeh_students.py** script and use this in your preferred environment, keeping in mind that there are dependencies.
 
