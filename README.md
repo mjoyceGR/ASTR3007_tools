@@ -3,14 +3,14 @@
 ## requires Python version 3.7
 
 ## Dependencies:
-### numpy
-### pandas
-### ColumnDataSource 
+###### numpy
+###### pandas
+###### ColumnDataSource 
 
 ## Installation
-If you already know how to use Python, or are friends with someone who does, the easiest thing to do will bet o copy the Bokeh_students.py script and use this in your preferred environment, keeping in mind that there are dependencies.
+If you already know how to use Python, or if you are friends with someone else who does, the easiest thing to do will be to copy the **Bokeh_students.py** script and use this in your preferred environment, keeping in mind that there are dependencies.
 
-If you are new to Python, attempt to follow these instructions and email me furiously when they do not work:
+If you are new to Python, attempt to follow these instructions and email me furiously when they do not work.
 
 ## Use
 Once you have Python3.7 and the other packages installed, type this in the terminal:
@@ -30,10 +30,11 @@ in Sublime, gedit, Atom, Nano, or any other text editor and change the name of t
 
 Note that you can include folders in your path. Since you are downloading multiple tracks, make sure you do not accidentally overwrite any of the history data by putting files with the same name in the same location!
 
-Note that lines 16-18 in the Bokeh_students.py script tell the script which columns to read from trimmed_history.data. You may also change these manually to inspect other elements of the MESA evolutionary data. The quantity "star_age" is the default value that appears when you hover your curser in the browser. 
+Note that lines 16-18 in the **Bokeh_students.py** tell the script which columns to read from **trimmed_history.data**. You may also change these manually to inspect other elements of the MESA evolutionary data. The quantity "star_age" is the default value that appears when you hover your curser in the browser. 
 
-This tool is intended only as a guide or starting point. If those of you with more advanced programming skills choose to modify this to help answer assignment questions more efficiently, please share your modifications with the rest of the class either here or via the Wattle forum.
+***This tool is intended only as a guide or starting point.*** If those of you with more advanced programming skills choose to modify this to help answer assignment questions more efficiently, please share your modifications with the rest of the class either here or via the Wattle forum.
 
 ## What should happen
+A figure will open in your browser. You will be able to interact with this figure using tools in the upper panel. Hovering over a point on the track will give you its age in Gyr. Adding other useful "mouse-over" quantities, such as log_R, is possible by modifying **Bokeh_students.py**. If you would like to do this and are struggling, email me (but with evidence of having tried to figure it out yourself first).
 
 ![](demo.png) 
