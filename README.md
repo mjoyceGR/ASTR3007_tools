@@ -1,11 +1,13 @@
 # ASTR3007_tools 
 
-## Python version 3.7
+## requires Python version 3.7
 
 ## Dependencies:
-numpy
-pandas
-ColumnDataSource 
+### numpy
+
+### pandas
+
+### ColumnDataSource 
 
 ## Installation
 
@@ -29,4 +31,5 @@ Note that you can include folders in your path. Since you are downloading multip
 
 Note that lines 16-18 in the Bokeh_students.py script tell the script which columns to read from trimmed_history.data. You may also change these manually to inspect other elements of the MESA evolutionary data. The quantity "star_age" is the default value that appears when you hover your curser in the browser. 
 
-This tool is intended only as an aid and starting point. If those of you with more advanced programming skills choose to modify this to help answer assignment questions more efficiently, please share your modifications with the rest of the class either here or via the Wattle forum.
+This tool is intended only as a guide or starting point. If those of you with more advanced programming skills choose to modify this to help answer assignment questions more efficiently, please share your modifications with the rest of the class either here or via the Wattle forum.
+
