@@ -4,12 +4,13 @@
 
 ## Dependencies:
 ### numpy
-
 ### pandas
-
 ### ColumnDataSource 
 
 ## Installation
+If you already know how to use Python, or are friends with someone who does, the easiest thing to do will bet o copy the Bokeh_students.py script and use this in your preferred environment, keeping in mind that there are dependencies.
+
+If you are new to Python, attempt to follow these instructions and email me furiously when they do not work:
 
 ## Use
 Once you have Python3.7 and the other packages installed, type this in the terminal:
@@ -33,3 +34,6 @@ Note that lines 16-18 in the Bokeh_students.py script tell the script which colu
 
 This tool is intended only as a guide or starting point. If those of you with more advanced programming skills choose to modify this to help answer assignment questions more efficiently, please share your modifications with the rest of the class either here or via the Wattle forum.
 
+## What should happen
+
+![](demo.png) 
