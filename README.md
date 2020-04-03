@@ -1,4 +1,5 @@
 # ASTR3007_tools 
+Using this repository is NOT a requirement of the course. However, answering questions like _How long does the main sequence last for a star of 2.0M?_ will become ***much easier*** if you are willing to invest a bit of time in learning clever ways to interact with MESA data.
 
 ## requires Python version 3.7
 
@@ -17,7 +18,7 @@ Once you have Python3.7 and the other packages installed, type this in the termi
 
 	python3 Bokeh_students.py
 
-the result should be that an interactive HR diagram pops up in your web browser
+the result should be that an interactive HR diagram pops up in your web browser (see image below).
 
 ## Data inspection
 One way to change the file you are viewing is to open the script
