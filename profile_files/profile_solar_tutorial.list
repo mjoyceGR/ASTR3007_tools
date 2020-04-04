@@ -1,0 +1,22 @@
+! minimal set of enabled columns:
+
+   zone       ! numbers start with 1 at the surface
+   mass       ! m/Msun. mass coordinate of outer boundary of cell.
+   logR       ! log10(radius/Rsun) at outer boundary of zone
+   logT       ! log10(temperature) at center of zone
+   logRho     ! log10(density) at center of zone
+   logP       ! log10(pressure) at center of zone
+   x_mass_fraction_H
+   y_mass_fraction_He
+   z_mass_fraction_metals
+
+   pressure ! total pressure at center of zone (pgas + prad)
+   prad ! radiation pressure at center of zone
+   pgas ! gas pressure at center of zone (electrons and ions)
+
+   gamma1 ! dlnP_dlnRho at constant S
+   gamma3 ! gamma3 - 1 = dlnT_dlnRho at constant S
+
+   luminosity ! luminosity at outer boundary of zone (in Lsun units)
+   logL ! log10(max(1d-2,L/Lsun))
+   log_Lrad
