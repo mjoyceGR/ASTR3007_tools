@@ -47,7 +47,7 @@ p.xaxis.axis_label = "log Teff"
 p.yaxis.axis_label = "log L"
 p.grid.grid_line_color = "white"
 
-## the labels
+## the labels 
 p.hover.tooltips = [
     ("star age (Gyr):", "@star_age"),
     ]#("model number", "@model_number"),
